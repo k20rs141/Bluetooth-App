@@ -11,6 +11,8 @@
 		66A03D7129DB0ACF00F26453 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A03D7029DB0ACF00F26453 /* ContentView.swift */; };
 		66A03D7329DB0AD200F26453 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66A03D7229DB0AD200F26453 /* Assets.xcassets */; };
 		66A03D7629DB0AD200F26453 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66A03D7529DB0AD200F26453 /* Preview Assets.xcassets */; };
+		66A03D7E29DB112800F26453 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A03D7D29DB112800F26453 /* AppDelegate.swift */; };
+		66A03D8029DC5BAC00F26453 /* MPCClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A03D7F29DC5BAC00F26453 /* MPCClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		66A03D7029DB0ACF00F26453 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		66A03D7229DB0AD200F26453 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66A03D7529DB0AD200F26453 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66A03D7C29DB0D1700F26453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		66A03D7D29DB112800F26453 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66A03D7F29DC5BAC00F26453 /* MPCClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPCClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +56,11 @@
 		66A03D6D29DB0ACF00F26453 /* NearbyInteractionApp */ = {
 			isa = PBXGroup;
 			children = (
+				66A03D7C29DB0D1700F26453 /* Info.plist */,
 				66A03D6E29DB0ACF00F26453 /* NearbyInteractionAppApp.swift */,
+				66A03D7D29DB112800F26453 /* AppDelegate.swift */,
 				66A03D7029DB0ACF00F26453 /* ContentView.swift */,
+				66A03D7F29DC5BAC00F26453 /* MPCClient.swift */,
 				66A03D7229DB0AD200F26453 /* Assets.xcassets */,
 				66A03D7429DB0AD200F26453 /* Preview Content */,
 			);
@@ -137,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66A03D7E29DB112800F26453 /* AppDelegate.swift in Sources */,
+				66A03D8029DC5BAC00F26453 /* MPCClient.swift in Sources */,
 				66A03D7129DB0ACF00F26453 /* ContentView.swift in Sources */,
 				66A03D6F29DB0ACF00F26453 /* NearbyInteractionAppApp.swift in Sources */,
 			);
@@ -270,6 +280,8 @@
 				DEVELOPMENT_TEAM = QU5MY7WAK3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NearbyInteractionApp/Info.plist;
+				INFOPLIST_KEY_NSNearbyInteractionUsageDescription = "他の連携先デバイスが近くにあることを確認するために使用します";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +311,8 @@
 				DEVELOPMENT_TEAM = QU5MY7WAK3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NearbyInteractionApp/Info.plist;
+				INFOPLIST_KEY_NSNearbyInteractionUsageDescription = "他の連携先デバイスが近くにあることを確認するために使用します";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
